@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster&family=Lobster+Two:ital@1&family=Lumanosimo&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #f3eef7;
+}
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #892CDC;
+    text-decoration: none;
+}
+.titulo-destaque {
+    color: #CD1818;
+}
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+.apresentacao__conteudo {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao__conteudo__titulo{
+    font-size: 2.25rem;
+    font-family: 'Lobster', cursive;
+    
+}
+.apresentacao__conteudo__texto{
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+}
+
+.apresentacao__conteudo__texto a{
+    text-decoration: none;
+    color: #7512cd;
+}
+.imagem{
+    width: 50%;
+}
+.rodape{
+    padding: 20px;
+    color: #000000;
+    background-color: #892CDC;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
